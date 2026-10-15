@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-skill-navigator",
+  "owner": {
+    "name": "danial112233"
+  },
+  "metadata": {
+    "description": "Skill Navigator for Claude Code: picks the installed skill that fits each request and tells Claude to run it."
+  },
+  "plugins": [
+    {
+      "name": "skill-navigator",
+      "source": "./plugins/skill-navigator",
+      "description": "Before each request, a cheap Haiku call picks the installed skill or command that fits, and Claude runs it right away. /nav to inspect.",
+      "category": "productivity",
+      "homepage": "https://github.com/danial112233/claude-skill-navigator"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "skill-navigator",
+  "version": "0.3.0",
+  "description": "Picks the installed skill that fits each request, reading the recent conversation, and tells Claude to run it right away. /nav to inspect.",
+  "author": {
+    "name": "danial112233",
+    "url": "https://github.com/danial112233"
+  },
+  "homepage": "https://github.com/danial112233/claude-skill-navigator",
+  "repository": "https://github.com/danial112233/claude-skill-navigator",
+  "license": "MIT",
+  "keywords": ["skills", "router", "navigator", "haiku", "productivity"]
+}
